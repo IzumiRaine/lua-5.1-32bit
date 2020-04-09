@@ -1,3 +1,11 @@
+This is Lua 5.1.5, adapted to use 32-bit bytecode even on 64-bit machines.
+
+Thanks to:
+- https://github.com/c0i/lua32 (basically the same thing for Lua 5.3.4)
+- https://stackoverflow.com/questions/39945499 (seems easier but ultimately not viable due to 32-bit architecture being deprecated on macOS)
+
+----------------------------------------
+
 README for Lua 5.1
 
 See INSTALL for installation instructions.
